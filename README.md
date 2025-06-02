@@ -33,8 +33,10 @@ Este projeto busca simular uma landing page de um restaurante regional, destacan
 - [Font Awesome](https://fontawesome.com/) (ícones)
 
 ---
+
 ## Link de Demonstração
 https://mandacaru-projeto-estudo.onrender.com
+
 ---
 
 ## 📸 Demonstração
