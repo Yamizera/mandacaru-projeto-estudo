@@ -34,7 +34,7 @@ Este projeto busca simular uma landing page de um restaurante regional, destacan
 
 ---
 
-## Link de Demonstração
+## 🔗 Link de demonstração
 https://mandacaru-projeto-estudo.onrender.com
 
 ---
