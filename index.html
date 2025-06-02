@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Biblioteca AOS para animações de rolagem -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Arquivo CSS local -->
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+    <!-- Remover sublinhado e cor azul dos links -->
+    <style>
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    </style>
+
+    <title>Mandacaru</title>
+  </head>
+  <body>
+    <header data-aos="fade-down">
+      <nav id="navbar">
+        <div class="nav-titulo">
+          <i class="fa-solid fa-burger"></i>Mandacaru
+        </div>
+
+        <ul id="nav_list">
+          <li class="nav-item active"><a href="#home">Início</a></li>
+          <li class="nav-item active"><a href="#menu">Cardápio</a></li>
+          <li class="nav-item active"><a href="#avaliacoes">Avaliações</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section id="banner" data-aos="zoom-in">
+        <img src="src/images/burger1-removebg-preview.png" class="burger-animado" />
+      </section>
+      <section id="home" data-aos="fade-up">
+        <div id="cta">
+          <h1>
+            <div class="title">
+              "Deixe o Mandacaru Cuidar da Sua <span>Fome"</span>
+            </div>
+          </h1>
+          <p class="description">Simbora matar essa fome?</p>
+        </div>
+      </section>
+    </main>
+
+    <section id="menu">
+      <h2 class="section-title" data-aos="fade-up">Cardápio</h2>
+      <h3 class="section-subtitle" data-aos="fade-up">Nossos pratos especiais</h3>
+      <div id="prato">
+        <div class="pratos" data-aos="fade-right">
+          <div class="prato-utensils">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <img src="src/images/burger1-removebg-preview.png" class="prato-image" alt="" />
+          <h3 class="name-prato">Arretado Burger</h3>
+          <span class="prato-description">
+            Burger de carne desfiada suculenta, cheddar derretido, crispy de cebola, alface crocante, picles artesanais e molho especial no pão brioche macio. Sabor forte e marcante, como manda o nome!
+          </span>
+          <div class="prato-estrela">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <span>(450+)</span>
+          </div>
+          <div class="prato-valor">
+            <h4>R$17,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="pratos" data-aos="fade-left">
+          <div class="prato-utensils">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <img src="src/images/burger2-removebg-preview.png" class="prato-image" alt="" />
+          <h3 class="name-prato">Sertão Smash Burger</h3>
+          <span class="prato-description">
+            Smash burger no pão brioche com gergelim, cheddar cremoso, picles artesanais, cebola laminada e molho da casa.
+          </span>
+          <div class="prato-estrela">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="prato-valor">
+            <h4>R$19,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="pratos" data-aos="fade-right">
+          <div class="prato-utensils">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <img src="src/images/burger3-removebg-preview.png" class="prato-image" alt="" />
+          <h3 class="name-prato">Lampião Burger</h3>
+          <span class="prato-description">
+            Burger artesanal com blend bovino grelhado, queijo derretido, alface fresca, tomate e picles no pão brioche com gergelim.
+          </span>
+          <div class="prato-estrela">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <span>(347+)</span>
+          </div>
+          <div class="prato-valor">
+            <h4>R$23,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="pratos" data-aos="fade-left">
+          <div class="prato-utensils">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <img src="src/images/burger4-removebg.png" class="prato-image" alt="" />
+          <h3 class="name-prato">Maria Bonita Burger</h3>
+          <span class="prato-description">
+            Dois burgers suculentos grelhados na brasa, queijo derretido em dobro, alface crocante e tomate fresco no pão brioche com gergelim.
+          </span>
+          <div class="prato-estrela">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <span>(470+)</span>
+          </div>
+          <div class="prato-valor">
+            <h4>R$27,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="avaliacoes" data-aos="fade-up">
+      <h2 class="section-title">O que nossos clientes dizem</h2>
+      <h3 class="section-subtitle">Avaliações</h3>
+      <img src="src/images/burgerluvas.png" alt="Hambúrguer com luvas" data-aos="zoom-in">
+
+      <div class="avaliacoes-container">
+        <div class="avaliacao-item" data-aos="fade-up">
+          <p>"Melhor burger da cidade! Sabor incrível!"</p>
+          <span>- João Silva</span>
+        </div>
+        <div class="avaliacao-item" data-aos="fade-up">
+          <p>"Atendimento excelente e comida deliciosa!"</p>
+          <span>- Maria Oliveira</span>
+        </div>
+        <div class="avaliacao-item" data-aos="fade-up">
+          <p>"Sempre volto aqui, é o meu lugar favorito!"</p>
+          <span>- Pedro Santos</span>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="titulo-contato" data-aos="fade-down">Entre em Contato</h1>
+    <a href="tel:+87912345678" id="phone-button">
+      <button class="btn-default" data-aos="fade-up">
+        <i class="fa-solid fa-phone"></i> (87)91234-5678
+      </button>
+    </a>
+    <div class="social-buttons" data-aos="zoom-in">
+      <button class="btn-default btn-align-center"><i class="fa-brands fa-whatsapp"></i></button>
+      <button class="btn-default btn-align-center"><i class="fa-solid fa-envelope"></i></button>
+      <button class="btn-default btn-align-center"><i class="fa-solid fa-location-dot"></i></button>
+    </div>
+
+    <footer data-aos="fade-up">
+      <img src="src/images/wave (1).svg" alt="">
+      <div id="footer_items">
+        <span id="coopyng">&copy; 2025 Lucas Cavalcante.</span>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
