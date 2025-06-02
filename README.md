@@ -19,7 +19,6 @@ Este projeto busca simular uma landing page de um restaurante regional, destacan
 
 - Navegação por seções com scroll suave
 - Animações de entrada nos elementos da página
-- Botão de “voltar ao topo”
 - Imagens e layout responsivos
 - Estilo personalizado com fontes e ícones
 
@@ -37,7 +36,8 @@ Este projeto busca simular uma landing page de um restaurante regional, destacan
 
 ## 📸 Demonstração
 
-📷 *Adicione aqui prints ou um link para a versão hospedada do projeto (como GitHub Pages, Vercel, Netlify, etc).*
+![image](https://github.com/user-attachments/assets/9d434cfd-6302-4913-8457-5ced3a93c50c)
+
 
 ---
 
